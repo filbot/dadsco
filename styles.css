@@ -17,7 +17,8 @@ header {
 
 a:link {
   font-size: 16px;
-  color: #333;
+  color: rgb(0, 96, 169);
+  text-decoration: none;
 }
 
 nav {
