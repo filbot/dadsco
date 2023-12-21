@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-link {
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #e0e0e0;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.discount {
+  color: red;
+  font-weight: bold;
+}
+
+.hours-of-operation {
+  text-align: center;
+  padding: 20px;
+  background-color: #d0d0d0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #c0c0c0;
+}
+
+.disclaimer {
+  font-style: italic;
+  color: #555;
+}
