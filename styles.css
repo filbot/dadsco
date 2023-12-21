@@ -62,3 +62,29 @@ footer {
   font-style: italic;
   color: #555;
 }
+
+/* Existing styles */
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #e0e0e0;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column; /* Display slides in a single column */
+  gap: 20px; /* Add gap between slides */
+}
+
+/* New media query for screens above 500px */
+@media screen and (min-width: 500px) {
+  .slider {
+    flex-direction: row; /* Display slides in a row */
+  }
+
+  .slide {
+    width: calc(33.333% - 20px); /* Adjust the width based on the number of slides in a row */
+  }
+}
+
