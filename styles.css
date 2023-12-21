@@ -61,8 +61,9 @@ img {
 
 footer {
   text-align: center;
+  color: rgb(95, 95, 95);
   padding: 10px;
-  background-color: #c0c0c0;
+  background-color: rgb(238, 238, 238);
 }
 
 .disclaimer {
