@@ -96,3 +96,50 @@ footer {
   }
 }
 
+/* Existing styles */
+
+.slider {
+  display: flex;
+  flex-direction: column; /* Display slides in a single column */
+  gap: 20px; /* Add gap between slides */
+}
+
+.slide {
+  width: 100%; /* Each slide takes full width */
+}
+
+.product-card {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.on-sale-banner {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff6347; /* Tomato color for the banner */
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product-details {
+  text-align: left;
+}
+
+/* New media query for screens above 500px */
+@media screen and (min-width: 500px) {
+  .slider {
+    flex-direction: row; /* Display slides in a row */
+  }
+
+  .slide {
+    width: calc(33.333% - 20px); /* Adjust the width based on the number of slides in a row */
+  }
+}
+
+
