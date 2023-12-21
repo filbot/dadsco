@@ -34,7 +34,7 @@ nav {
   padding-top: 10px;
   padding-right: 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
-  }
+}
 
 .hero {
   text-align: center;
@@ -60,6 +60,12 @@ img {
 .discount {
   color: red;
   font-weight: bold;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hours-of-operation {
@@ -90,18 +96,22 @@ footer {
 
 .slider {
   display: flex;
-  flex-direction: column; /* Display slides in a single column */
-  gap: 20px; /* Add gap between slides */
+  flex-direction: column;
+  /* Display slides in a single column */
+  gap: 20px;
+  /* Add gap between slides */
 }
 
 /* New media query for screens above 500px */
 @media screen and (min-width: 500px) {
   .slider {
-    flex-direction: row; /* Display slides in a row */
+    flex-direction: row;
+    /* Display slides in a row */
   }
 
   .slide {
-    width: calc(33.333% - 20px); /* Adjust the width based on the number of slides in a row */
+    width: calc(33.333% - 20px);
+    /* Adjust the width based on the number of slides in a row */
   }
 }
 
@@ -109,12 +119,15 @@ footer {
 
 .slider {
   display: flex;
-  flex-direction: column; /* Display slides in a single column */
-  gap: 20px; /* Add gap between slides */
+  flex-direction: column;
+  /* Display slides in a single column */
+  gap: 20px;
+  /* Add gap between slides */
 }
 
 .slide {
-  width: 100%; /* Each slide takes full width */
+  width: 100%;
+  /* Each slide takes full width */
 }
 
 .product-card {
@@ -129,7 +142,8 @@ footer {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #ff6347; /* Tomato color for the banner */
+  background-color: #ff6347;
+  /* Tomato color for the banner */
   color: #fff;
   padding: 5px 10px;
   font-size: 12px;
@@ -143,12 +157,12 @@ footer {
 /* New media query for screens above 500px */
 @media screen and (min-width: 500px) {
   .slider {
-    flex-direction: row; /* Display slides in a row */
+    flex-direction: row;
+    /* Display slides in a row */
   }
 
   .slide {
-    width: calc(33.333% - 20px); /* Adjust the width based on the number of slides in a row */
+    width: calc(33.333% - 20px);
+    /* Adjust the width based on the number of slides in a row */
   }
 }
-
-
