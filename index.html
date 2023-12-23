@@ -159,6 +159,7 @@
     </div>
 
     <section class="contact-us" id="contact">
+        <h2>Reach out to our team</h2>
         <form action="https://api.web3forms.com/submit" method="POST">
 
             <input type="hidden" name="access_key" value="196a1e09-fa13-45c2-8614-6377e677fbfc">
@@ -172,8 +173,9 @@
                 <input type="email" name="email" required>
             </div>
             <div class="text-area-container">
-                <label for="text" size="100" placeholder="Please note that, although a human will read this, no resolution will be provided, you will have to live with your choices">Short message:</label>
-                <textarea name="message" required></textarea>
+                <label for="text">Short message:</label>
+                <textarea name="message" required size="100"
+                    placeholder="Please note that, although a human will read this, no resolution will be provided, you will have to live with your choices"></textarea>
             </div>
             <div class="h-captcha" data-captcha="true"></div>
             <button type="submit">Send</button>
