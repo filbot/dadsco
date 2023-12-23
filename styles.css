@@ -155,6 +155,10 @@ footer {
   width: 100%;
 }
 
+.contact-us {
+  padding: 0 20px
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -162,6 +166,15 @@ form {
   align-items: center;
   gap: 20px;
   padding: 20px;
+}
+
+.name-container,
+.email-container,
+.text-area-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px
 }
 
 @media screen and (min-width: 900px) {
