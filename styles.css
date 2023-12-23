@@ -162,10 +162,8 @@ footer {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 20px;
 }
 
 .name-container,
@@ -175,6 +173,11 @@ form {
   justify-content: space-between;
   align-items: center;
   gap: 20px
+}
+
+.text-area-container {
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 900px) {
@@ -199,6 +202,10 @@ form {
   }
 
   .business-info-container {
+    flex-direction: row;
+  }
+
+  .text-area-container {
     flex-direction: row;
   }
 }
