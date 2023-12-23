@@ -184,10 +184,8 @@ form {
   flex-direction: column;
 }
 
-button {
+.form-button {
   padding: 10px 20px;
-  background-color: rgb(0, 96, 169);
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 900px) {
